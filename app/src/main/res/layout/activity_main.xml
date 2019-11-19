@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#00BCD4">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:hint="Search ...">
+            </EditText>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#fff">
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bnt_1"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/a">
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Xin Chào, Người Thừa Kế"
+                android:textSize="20dp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_2"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/b">
+                ></Button>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Truyện Anh yêu em cún con"
+            android:textSize="20dp">
+
+        </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_3"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/c">
+
+            </Button>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Truyện hello kitty"
+                android:textSize="20dp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_4"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/d">
+            </Button>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Truyện hello Dieu"
+                android:textSize="20dp">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

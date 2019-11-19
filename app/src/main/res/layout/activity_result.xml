@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/e">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="Chương 1: Tại sao cô lại ở đây?"
+            android:textColor="#000"
+            android:textSize="20dp"></TextView>
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="close"
+            android:textColor="#000">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

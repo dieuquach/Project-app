@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/e">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="DANH SÁCH CÁC CHƯƠNG"
+        android:textSize="29dp"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_c1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chương 1: Tại sao cô lại ở đây?"
+            android:textSize="12dp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_c2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chương 2: Khi nào kết hôn?"
+            android:textSize="12dp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_c3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chương 3: Trò đùa khai mở rồi!"
+            android:textSize="12dp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_c4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chương 4: Đối với Tư tiên sinh!"
+            android:textSize="12dp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_c5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chương 5: Boss quá khó chịu!"
+            android:textSize="12dp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_c6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chương 6: Năm năm trước, là ta ném hắn !"
+            android:textSize="12dp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_c7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chương 7: Trang tiểu thư, mời cô rời đi"
+            android:textSize="12dp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_c8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chương 8: Cô cấp thiết gả cho hắn"
+            android:textSize="12dp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_c9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chương 9: Tư tiên sinh"
+            android:textSize="12dp"></Button>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="close"
+        android:id="@+id/btn_close"/>
+</LinearLayout>
